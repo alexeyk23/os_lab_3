@@ -1,0 +1,9 @@
+C:\Users\admin\Documents\Visual Studio 2012\Projects\os_lab_3\os_lab_3\bin\Debug\os_lab_3.exe.config
+C:\Users\admin\Documents\Visual Studio 2012\Projects\os_lab_3\os_lab_3\bin\Debug\os_lab_3.exe
+C:\Users\admin\Documents\Visual Studio 2012\Projects\os_lab_3\os_lab_3\bin\Debug\os_lab_3.pdb
+C:\Users\admin\Documents\Visual Studio 2012\Projects\os_lab_3\os_lab_3\obj\Debug\os_lab_3.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2012\Projects\os_lab_3\os_lab_3\obj\Debug\os_lab_3.Form1.resources
+C:\Users\admin\Documents\Visual Studio 2012\Projects\os_lab_3\os_lab_3\obj\Debug\os_lab_3.Properties.Resources.resources
+C:\Users\admin\Documents\Visual Studio 2012\Projects\os_lab_3\os_lab_3\obj\Debug\os_lab_3.csproj.GenerateResource.Cache
+C:\Users\admin\Documents\Visual Studio 2012\Projects\os_lab_3\os_lab_3\obj\Debug\os_lab_3.exe
+C:\Users\admin\Documents\Visual Studio 2012\Projects\os_lab_3\os_lab_3\obj\Debug\os_lab_3.pdb

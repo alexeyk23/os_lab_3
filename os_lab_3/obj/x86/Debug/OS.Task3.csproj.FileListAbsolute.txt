@@ -1,0 +1,33 @@
+D:\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\bin\Debug\OS.Task3.exe
+D:\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\bin\Debug\OS.Task3.pdb
+D:\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.Properties.Resources.resources
+D:\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.exe
+D:\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.pdb
+D:\Dropbox\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.exe
+D:\Dropbox\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.pdb
+D:\Dropbox\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\bin\Debug\OS.Task3.exe
+D:\Dropbox\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\bin\Debug\OS.Task3.pdb
+D:\Dropbox\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.Properties.Resources.resources
+D:\Dropbox\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dropbox\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dropbox\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.FormMain.resources
+D:\Dropbox\My papka xD\VI семестр\Операционные Системы (Вощинская)\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.FormMain.resources
+C:\УНИВЕРСИТЕТ\VI семестр\Операционные системы Вощинская\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.exe
+C:\УНИВЕРСИТЕТ\VI семестр\Операционные системы Вощинская\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.pdb
+C:\УНИВЕРСИТЕТ\VI семестр\Операционные системы Вощинская\OS.Task3\OS.Task3\bin\Debug\OS.Task3.exe
+C:\УНИВЕРСИТЕТ\VI семестр\Операционные системы Вощинская\OS.Task3\OS.Task3\bin\Debug\OS.Task3.pdb
+C:\УНИВЕРСИТЕТ\VI семестр\Операционные системы Вощинская\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.FormMain.resources
+C:\УНИВЕРСИТЕТ\VI семестр\Операционные системы Вощинская\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.Properties.Resources.resources
+C:\УНИВЕРСИТЕТ\VI семестр\Операционные системы Вощинская\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.exe
+C:\Users\admin\Desktop\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.pdb
+C:\Users\admin\Desktop\OS.Task3\OS.Task3\bin\Debug\OS.Task3.exe
+C:\Users\admin\Desktop\OS.Task3\OS.Task3\bin\Debug\OS.Task3.pdb
+C:\Users\admin\Desktop\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.FormMain.resources
+C:\Users\admin\Desktop\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.Properties.Resources.resources
+C:\Users\admin\Desktop\OS.Task3\OS.Task3\obj\x86\Debug\OS.Task3.csproj.GenerateResource.Cache
