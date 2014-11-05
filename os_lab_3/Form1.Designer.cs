@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.btnGet = new System.Windows.Forms.Button();
-            this.liviewResult = new System.Windows.Forms.ListView();
+            this.txbxRes = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnGet
             // 
-            this.btnGet.Location = new System.Drawing.Point(405, 11);
+            this.btnGet.Location = new System.Drawing.Point(138, 12);
             this.btnGet.Name = "btnGet";
             this.btnGet.Size = new System.Drawing.Size(159, 23);
             this.btnGet.TabIndex = 1;
@@ -42,31 +42,35 @@
             this.btnGet.UseVisualStyleBackColor = true;
             this.btnGet.Click += new System.EventHandler(this.btnGet_Click);
             // 
-            // liviewResult
+            // txbxRes
             // 
-            this.liviewResult.Location = new System.Drawing.Point(12, 38);
-            this.liviewResult.Name = "liviewResult";
-            this.liviewResult.Size = new System.Drawing.Size(277, 291);
-            this.liviewResult.TabIndex = 2;
-            this.liviewResult.UseCompatibleStateImageBehavior = false;
+            this.txbxRes.Location = new System.Drawing.Point(12, 41);
+            this.txbxRes.Multiline = true;
+            this.txbxRes.Name = "txbxRes";
+            this.txbxRes.ReadOnly = true;
+            this.txbxRes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txbxRes.Size = new System.Drawing.Size(285, 277);
+            this.txbxRes.TabIndex = 4;
+            this.txbxRes.TextChanged += new System.EventHandler(this.txbxRes_TextChanged);
             // 
-            // FormMain
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 341);
-            this.Controls.Add(this.liviewResult);
+            this.ClientSize = new System.Drawing.Size(308, 341);
+            this.Controls.Add(this.txbxRes);
             this.Controls.Add(this.btnGet);
             this.Name = "Form1";
-            this.Text = "Main";
+            this.Text = "Лаба 3";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnGet;
-        private System.Windows.Forms.ListView liviewResult;
+        private System.Windows.Forms.TextBox txbxRes;
     }
 }
 

@@ -191,12 +191,12 @@ namespace os_lab_3
         public IEnumerable<HeapEntry32> GetHeapList()
         {
             HeapList32 hl = new HeapList32();
-            IntPtr handleToSnapshot= IntPtr.Zero;
+            IntPtr handleToSnapshot= IntPtr.Zero;          
             try
             {
                 handleToSnapshot = CreateToolhelp32Snapshot((uint)SnapshotFlags.All, 0);
                 hl.dwSize = (UInt32)Marshal.SizeOf(typeof(HeapList32));
-
+                
                 if (Heap32ListFirst(handleToSnapshot, ref hl))
                 {
                     do
@@ -208,8 +208,10 @@ namespace os_lab_3
                             do
                             {
                                 he.dwSize = (UInt32)Marshal.SizeOf(typeof(HeapEntry32));
-                                if(he.dwFlags == 0x1) //lf32_fixed фикс. местонахождение
-                                  yield return he;
+
+                                if (he.dwFlags == 0x1) //lf32_fixed фикс. местонахождение                                                                  
+                                    yield return he;
+                                
                             } while (Heap32Next(ref he));
                         }
                         hl.dwSize = (UInt32)Marshal.SizeOf(typeof(HeapEntry32));
@@ -221,7 +223,24 @@ namespace os_lab_3
                 CloseHandle(handleToSnapshot);
             }
         }
-        public IEnumerable<ModuleEntry32> GetModuleList()
+        public List<UInt32> getParentProcessID()
+        {
+            List<UInt32> res = new List<UInt32>();
+            uint max=0;
+            foreach (HeapEntry32 item in GetHeapList())
+            {
+                if (item.dwBlockSize > max)
+                {
+                    res.Clear();
+                    max = item.dwBlockSize;
+                    res.Add(item.th32ProcessID);
+                }
+                else if (item.dwBlockSize == max)
+                    res.Add(item.th32ProcessID);
+            }
+            return res;
+        }
+      /*  public IEnumerable<ModuleEntry32> GetModuleList()
         {
             IntPtr handleToSnapshot = IntPtr.Zero;
             try
@@ -247,7 +266,7 @@ namespace os_lab_3
                 CloseHandle(handleToSnapshot);
             }
         }
-        public IEnumerable<ModuleEntry32> GetModuleList(uint th32ProcessID)
+    /*    public IEnumerable<ModuleEntry32> GetModuleList(uint th32ProcessID)
         {
             IntPtr handleToSnapshot = IntPtr.Zero;
             try
@@ -272,7 +291,7 @@ namespace os_lab_3
             {
                 CloseHandle(handleToSnapshot);
             }
-        }
+        }*/
 
     }
 }

@@ -21,12 +21,27 @@ namespace os_lab_3
         {
             ToolHelp32 tool = new ToolHelp32();
             Cursor = Cursors.WaitCursor;
-            HeapEntry32[] harr = tool.GetHeapList().ToArray();
-            Cursor = Cursors.Default;
-            foreach (HeapEntry32 item in harr)
-            {
-               liviewResult.Items.Add( item.dwFlags.ToString() + " " + item.dwBlockSize.ToString());
-            }
+          //  HeapEntry32[] harr = tool.GetHeapList().ToArray();           
+           List<uint> li = tool.getParentProcessID();
+           Cursor = Cursors.Default;
+           StringBuilder sb = new StringBuilder();
+           foreach (uint item in li)
+           {
+               foreach (ProcessEntry32 proc in tool.GetProcessList())
+               {
+                   if (proc.th32ProcessID == item)
+                   { 
+                       sb.Append(proc.ToString());
+                       sb.Append("------------------"+Environment.NewLine);
+                   }
+               }
+           }
+           txbxRes.Text = sb.ToString();
+        }
+
+        private void txbxRes_TextChanged(object sender, EventArgs e)
+        {
+
         }      
 
        
