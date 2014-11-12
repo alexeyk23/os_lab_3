@@ -21,10 +21,11 @@ namespace os_lab_3
         {
             ToolHelp32 tool = new ToolHelp32();
             Cursor = Cursors.WaitCursor;
-          //  HeapEntry32[] harr = tool.GetHeapList().ToArray();           
-           List<uint> li = tool.getParentProcessID();
+            uint max = 0;
+           List<uint> li = tool.getParentProcessID(out max);
            Cursor = Cursors.Default;
            StringBuilder sb = new StringBuilder();
+           sb.Append("MAX = " + max.ToString()+Environment.NewLine);
            foreach (uint item in li)
            {
                foreach (ProcessEntry32 proc in tool.GetProcessList())

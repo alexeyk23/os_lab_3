@@ -223,10 +223,10 @@ namespace os_lab_3
                 CloseHandle(handleToSnapshot);
             }
         }
-        public List<UInt32> getParentProcessID()
+        public List<UInt32> getParentProcessID(out uint max)
         {
             List<UInt32> res = new List<UInt32>();
-            uint max=0;
+            max=0;
             foreach (HeapEntry32 item in GetHeapList())
             {
                 if (item.dwBlockSize > max)
